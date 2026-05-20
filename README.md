@@ -10,15 +10,15 @@ Built to deeply understand options pricing mechanics rather than to import a lib
 
 **SPY** — the canonical equity surface. Clean skew (OTM puts richer than OTM calls), smile flattens with time-to-expiry, smooth term structure across maturities.
 
-"C:\Users\davis\OneDrive\Options Pricing Lab Project\SPY IV Surface Render.png"
+![SPY surface](images/spy_surface.png)
 *Classic equity skew: OTM puts (left wing) trade richer than OTM calls (right wing), reflecting demand for downside protection. Smile flattens as time-to-expiry grows.*
 
-"C:\Users\davis\OneDrive\Options Pricing Lab Project\SPY Vol Smile Chart.png"
+![SPY 28-day smile](images/spy_smile.png)
 *28-day option volatility smile - note linear continuity, density of solved contracts around ATM, and the reinforcement of the convention that high protective-put demand inflates high OTM implied vol.*
 
 **NVDA** — same code, same trading day. The spike at short-dated ATM strikes is the market pricing the earnings call on the night I'm writing. Once you get past the post-earnings expirations, the surface settles to normal levels.
 
-"C:\Users\davis\OneDrive\Options Pricing Lab Project\NVDA IV Surface Render.png"
+![NVDA surface with earnings premium](images/nvda_surface.png)
 *Note vol spike in N and ATM low TTM options, indicative of high event-vol around tonight's earnings call. Demonstrates model adaptability in representation of vol structures.*
 
 
