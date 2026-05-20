@@ -1,0 +1,8 @@
+numpy
+scipy.stats
+pandas
+matplotlib
+yfinance
+pytest
+jupyter
+plotly
